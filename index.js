@@ -14,9 +14,11 @@ function decrement(){
 }
 function save() {
     saveEle.textContent += count +"-";
+    counterEle.textContent = 0
+    count = 0;
 }
 function reset() {
-    if(confirm("DO you want to Reset?")) {
+    if(confirm("Do you want me to Reset?")) {
         counterEle.textContent = 0;
         saveEle.textContent = "Previous element: ";
     }
