@@ -1,0 +1,40 @@
+body{
+    background-image: url("C://Users/tejas.kumardp/Pictures/snow-background.jpg");
+    background-size: cover;
+    background-color: #eee;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h2{
+    display: inline;
+    background-color: #eee;
+    border: 2px solid black;
+    font-size: 50px;
+    margin-top: 10px;
+}
+button{
+    margin-top: 10px;
+    border: none;
+    padding: 10px;
+    font-size: medium;
+    color: cornsilk;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 150px;
+    margin-bottom: 5px;
+}
+#increment-btn ,#decrement-btn{
+    background-color: darkred;
+}
+#save-btn, #reset-btn{
+    background-color: green;
+}
+#save-ele{
+    color: darkblue;
+}
